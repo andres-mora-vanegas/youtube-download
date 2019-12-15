@@ -1,0 +1,19 @@
+{
+  "name": "youtube-dw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "video-stitch": "^1.6.0",
+    "youtube-dl": "^2.2.0",
+    "ytdl-core": "^1.0.3"
+  }
+}
