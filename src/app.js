@@ -10,7 +10,9 @@ const url = "https://www.youtube.com/watch?v=a3ICNMQW7Ok";
 
 options = { begin: "20s" };
 
-ytdl.getInfo(url, options, (err, info) => {
+ytdl.getInfo(url, options, processFile);
+
+function processFile(err, info) {
   if (err) {
     console.log(`err`, err);
   } else {
@@ -52,4 +54,4 @@ ytdl.getInfo(url, options, (err, info) => {
       console.log(`error`, error);
     }
   }
-});
+}
